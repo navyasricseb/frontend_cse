@@ -1,0 +1,32 @@
+.parent{
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    border: 3px solid red;
+}
+.parent>div{
+    width: auto;
+    border: 2px solid pink;
+    padding: 4%;
+    margin: 1%;
+    text-align: center;
+    background-color: greenyellow;
+
+}
+button{
+    color: sandybrown;
+}
+h1{
+    color: red;
+}
+h2{
+    color: seagreen;
+}
